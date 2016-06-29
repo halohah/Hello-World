@@ -1,0 +1,68 @@
+/*The CSS should apply these styles to match the design prototype:
+italicized text for the animal's interesting fact
+italicized text for the animal's list items
+bolded labels for the animal's list items (e.g. 'Habitat')
+no dots for the animal's list items
+border around the animal's name, image, and information
+border around the animal's information
+spacing between the animal's name, image, and information (you will need to use the property padding)*/
+
+/* add your CSS here */
+#card{
+    font: 14px calibri,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    width: 330px;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+#information{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#fact{
+    font-style: italic;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    font-style: italic;
+    list-style-type: none;
+}
+.itemname{
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+#name{
+    font: bold 30px sans-serif;
+    padding-left: 15px;
+    margin-bottom:5px;
+}
+
+#image{
+    width: 300px;
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/*When you're done matching your webpage to the design prototype, swap in an image and information for your favorite animal. For the image, you will want use an image with a width of 300 pixels. If your image is larger, you can set the image's width to 300 pixels in your CSS, but be aware that your image might end up being squished or distorted. Later, we’ll talk about how you can fix this problem using responsive images. Also, don't forget to change the image's alt attribute to the name of your animal. So, alt="clownfish" should be replaced with alt="name-of-your-animal".*/
